@@ -120,12 +120,20 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="kardex de notas.aspx" />
     <Content Include="registro_notas.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="kardex de notas.aspx.designer.vb">
+      <DependentUpon>kardex de notas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kardex de notas.aspx.vb">
+      <DependentUpon>kardex de notas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
